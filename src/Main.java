@@ -23,13 +23,19 @@ public class Main {
 
         Player player1 = new Player();
         player1.name = "Rearden Walker";
+        player1.Name();
         player1.team = "Bronvill Weasels";
+        player1.Team();
         player1.sport = "Soccer";
+        player1.Sport();
 
         Player player2 = new Player();
         player2.name = "Price Watt";
+        player2.Name();
         player2.team = "Danville Ponchos";
+        player2.Team();
         player2.sport = "Soccer";
+        player2.Sport();
 
     }
 

@@ -4,16 +4,17 @@ public class Player {
     String team;
     String sport;;
 
-    void DoDrill() {
+    public void Name() {
+        System.out.println("Hi everyone! My name is" +name);
 
     }
 
-    void GoOnRun(){
-
+    public void Team(){
+        System.out.println("Hi everyone! I play for" +team);
     }
 
-    void ListenToSpeech(){
-
+    public void Sport(){
+        System.out.println("Hi everyone! I play" +sport);
     }
 }
 
