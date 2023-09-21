@@ -32,10 +32,11 @@ public class Main {
         Player player2 = new Player();
         player2.name = "Price Watt";
         player2.Name();
-        player2.team = "Danville Ponchos";
-        player2.Team();
         player2.sport = "Soccer";
         player2.Sport();
+        player2.team = "Danville Ponchos";
+        player2.Team();
+
 
     }
 
