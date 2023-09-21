@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-       // System.out.println("Hello world!");
 
         Ref ref1 = new Ref();
         ref1.name = "Mr. Big";
@@ -36,6 +35,14 @@ public class Main {
         player2.Team();
         player2.sport = "Soccer";
         player2.Sport();
+
+        Match match1 = new Match();
+        match1.teams = "Danville Ponchos and Bronvill Weasels";
+        match1.teams();
+        match1.date="september 14th";
+        match1.date();
+        match1.location = "Bronvill Weasels stadium";
+        match1.location();
 
 
     }
