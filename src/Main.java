@@ -44,14 +44,6 @@ public class Main {
         match1.location = "Bronvill Weasels stadium";
         match1.location();
 
-
-    }
-
-
-
-
-
-
         Coach coach1 = new Coach();
         coach1.Name = "Brad Chase";
         coach1.introduce_self();
@@ -67,5 +59,15 @@ public class Main {
         coach2.introduce_team();
         coach2.Sport = "Bronvill Weasels";
         coach2.declare_win2();
+
+
+    }
+
+
+
+
+
+
+
     }
 }

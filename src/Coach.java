@@ -14,6 +14,6 @@ public class Coach {
         System.out.println("And we will win this " +Sport);
     }
     public void declare_win2(){
-        System.out.println("And we will beat the " +Team+ " And take the Championship");
+        System.out.println("And we will beat the " +Team+ "  And take the Championship");
     }
 }
