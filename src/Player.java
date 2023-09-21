@@ -2,7 +2,7 @@ public class Player {
 
     String name;
     String team;
-    String sport;;
+    String sport;
 
     public void Name() {
         System.out.println("Hi everyone! My name is " +name);
