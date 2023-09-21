@@ -3,5 +3,10 @@ public class Main {
         System.out.println("Hello world!");
     }
 
+    Player player1 = new Player();
+
+
+
+
 
 }
