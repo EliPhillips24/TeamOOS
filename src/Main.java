@@ -21,9 +21,19 @@ public class Main {
         ref2.year = 7;
         ref2.year();
 
+        Player player1 = new Player();
+        player1.name = "Rearden Walker";
+        player1.team = "Bronvill Weasels";
+        player1.sport = "Soccer";
+
+        Player player2 = new Player();
+        player2.name = "Price Watt";
+        player2.team = "Danville Ponchos";
+        player2.sport = "Soccer";
+
     }
 
-    Player player1 = new Player();
+
 
 
 

@@ -1,9 +1,8 @@
 public class Player {
 
     String name;
-    String Team;
-    String Sport;
-    Coach coach;
+    String team;
+    String sport;;
 
     void DoDrill() {
 
