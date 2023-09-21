@@ -5,16 +5,16 @@ public class Player {
     String sport;;
 
     public void Name() {
-        System.out.println("Hi everyone! My name is" +name);
+        System.out.println("Hi everyone! My name is " +name);
 
     }
 
     public void Team(){
-        System.out.println("Hi everyone! I play for" +team);
+        System.out.println("Hi everyone! I play for " +team);
     }
 
     public void Sport(){
-        System.out.println("Hi everyone! I play" +sport);
+        System.out.println("Hi everyone! I play " +sport);
     }
 }
 
