@@ -37,19 +37,19 @@ public class Main {
         match1.location();
 
 
-        coach1.Name = "Brad Chase";
+        coach1.name = "Brad Chase";
         coach1.introduce_self();
-        coach1.Team = team1;
+        coach1.team = team1;
         coach1.introduce_team();
-        coach1.Sport = "Soccer Tournament";
+        coach1.sport = "Soccer Tournament";
         coach1.declare_win();
 
 
-        coach2.Name = "Justin Netenhao";
+        coach2.name = "Justin Netenhao";
         coach2.introduce_self();
-        coach2.Team = team2;
+        coach2.team = team2;
         coach2.introduce_team();
-        coach2.Sport = "Bronvill Weasels";
+        coach2.team2 = team1;
         coach2.declare_win2();
 
 

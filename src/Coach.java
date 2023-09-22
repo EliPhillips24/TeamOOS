@@ -1,19 +1,20 @@
 
 public class Coach {
-    String Name;
-    Team Team;
-    String Sport;
+    String name;
+    Team team;
+    Team team2;
+    String sport;
 
     public void introduce_self(){
-        System.out.println("My name is " + Name);
+        System.out.println("My name is " + name);
     }
     public void introduce_team(){
-        System.out.println("I coach for the " +Team.team);
+        System.out.println("I coach for the " +team.team);
     }
     public void declare_win(){
-        System.out.println("And we will win this " +Sport);
+        System.out.println("And we will win this " +sport);
     }
     public void declare_win2(){
-        System.out.println("And we will beat the " +Team+ "  And take the Championship");
+        System.out.println("And we will beat the " +team2.team+ "  And take the Championship");
     }
 }
