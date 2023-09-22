@@ -1,5 +1,13 @@
 public class Main {
     public static void main(String[] args) {
+        Team team1 = new Team();
+        Team team2 = new Team();
+        Ref ref2 = new Ref();
+        Match match1 = new Match();
+        Coach coach1 = new Coach();
+        Coach coach2 = new Coach();
+        Player player1 = new Player();
+        Player player2 = new Player();
 
         Ref ref1 = new Ref();
         ref1.name = "Mr. Big";
@@ -11,10 +19,8 @@ public class Main {
         ref1.year();
 
 
-        Ref ref2 = new Ref();
         ref2.name = "Mr. Small";
         ref2.name();
-
         ref2.sport = " Soccer";
         ref2.sport();
         ref2.year = 7;
@@ -22,7 +28,7 @@ public class Main {
 
 
 
-        Match match1 = new Match();
+
         match1.teams = "Danville Ponchos and Bronvill Weasels";
         match1.teams();
         match1.date="september 14th";
@@ -30,7 +36,7 @@ public class Main {
         match1.location = "Bronvill Weasels stadium";
         match1.location();
 
-        Coach coach1 = new Coach();
+
         coach1.Name = "Brad Chase";
         coach1.introduce_self();
         coach1.Team = "Bronvill Weasels";
@@ -38,7 +44,7 @@ public class Main {
         coach1.Sport = "Soccer Tournament";
         coach1.declare_win();
 
-        Coach coach2 = new Coach();
+
         coach2.Name = "Justin Netenhao";
         coach2.introduce_self();
         coach2.Team = "Danville Ponchos";
@@ -46,7 +52,7 @@ public class Main {
         coach2.Sport = "Bronvill Weasels";
         coach2.declare_win2();
 
-        Player player1 = new Player();
+
         player1.name = "Rearden Walker";
         player1.Name();
         player1.team = "Bronvill Weasels";
@@ -56,7 +62,7 @@ public class Main {
         player1.coach = coach1;
         player1.Coach();
 
-        Player player2 = new Player();
+
         player2.name = "Price Watt";
         player2.Name();
         player2.team = "Danville Ponchos";
@@ -66,7 +72,6 @@ public class Main {
         player2.coach = coach2;
         player2.Coach();
 
-        Team team1 = new Team();
         team1.team = "Bronvill Weasels";
         team1.TeamName();
         team1.player = player1;
@@ -74,7 +79,7 @@ public class Main {
         team1.coach = coach1;
         team1.Coach();
 
-        Team team2 = new Team();
+
         team2.team = "Danville Ponchos";
         team2.TeamName();
         team2.player = player2;
