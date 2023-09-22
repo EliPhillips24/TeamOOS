@@ -20,13 +20,6 @@ public class Main {
         ref2.year = 7;
         ref2.year();
 
-        Player player1 = new Player();
-        player1.name = "Rearden Walker";
-        player1.Name();
-        player1.team = "Bronvill Weasels";
-        player1.Team();
-        player1.sport = "Soccer";
-        player1.Sport();
 
         Player player2 = new Player();
         player2.name = "Price Watt";
@@ -59,6 +52,16 @@ public class Main {
         coach2.introduce_team();
         coach2.Sport = "Bronvill Weasels";
         coach2.declare_win2();
+
+        Player player1 = new Player();
+        player1.name = "Rearden Walker";
+        player1.Name();
+        player1.team = "Bronvill Weasels";
+        player1.Team();
+        player1.sport = "Soccer";
+        player1.Sport();
+        player1.coach = coach1;
+        player1.Coach();
 
 
     }

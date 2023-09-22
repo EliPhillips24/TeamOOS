@@ -17,6 +17,10 @@ public class Player {
     public void Sport(){
         System.out.println("Hi everyone! I play " +sport);
     }
+
+    public void Coach(){
+        System.out.println("My Coach is " +coach);
+    }
 }
 
 
