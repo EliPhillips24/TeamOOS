@@ -11,6 +11,6 @@ public class Team {
         System.out.println("This is the " +team);
     }
     public void Coach() {
-        System.out.println("This team's coach is" +coach.Name);
+        System.out.println("This team's coach is " +coach.Name);
     }
 }
