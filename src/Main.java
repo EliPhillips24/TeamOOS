@@ -66,6 +66,22 @@ public class Main {
         player2.coach = coach2;
         player2.Coach();
 
+        Team team1 = new Team();
+        team1.team = "Bronvill Weasels";
+        team1.TeamName();
+        team1.player = player1;
+        team1.Player();
+        team1.coach = coach1;
+        team1.Coach();
+
+        Team team2 = new Team();
+        team2.team = "Danville Ponchos";
+        team2.TeamName();
+        team2.player = player2;
+        team2.Player();
+        team2.coach = coach2;
+
+
 
 
     }

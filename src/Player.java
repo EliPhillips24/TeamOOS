@@ -19,7 +19,7 @@ public class Player {
     }
 
     public void Coach(){
-        System.out.println("My Coach is " +coach);
+        System.out.println("My Coach is " +coach.Name);
     }
 }
 
