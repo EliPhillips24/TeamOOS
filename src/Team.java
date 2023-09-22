@@ -7,7 +7,7 @@ public class Team {
     public void Player() {
         System.out.println("This team has " +player+ "on it");
     }
-    public void Team() {
+    public void TeamName() {
         System.out.println("This is the " +team);
     }
     public void Coach() {

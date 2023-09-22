@@ -5,7 +5,7 @@ public class Player {
     String sport;
     Coach coach;
 
-    public void Name() {
+    public void Name(){
         System.out.println("Hi everyone! My name is " +name);
 
     }
