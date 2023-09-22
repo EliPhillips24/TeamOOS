@@ -2,7 +2,7 @@
 public class Coach {
     String name;
     Team team;
-    Team team2;
+
     String sport;
 
     public void introduce_self(){
@@ -15,6 +15,6 @@ public class Coach {
         System.out.println("And we will win this " +sport);
     }
     public void declare_win2(){
-        System.out.println("And we will beat the " +team2.team+ "  And take the Championship");
+        System.out.println("And we will beat the " +team+ "  And take the Championship");
     }
 }

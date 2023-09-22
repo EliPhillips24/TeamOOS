@@ -49,7 +49,7 @@ public class Main {
         coach2.introduce_self();
         coach2.team = team2;
         coach2.introduce_team();
-        coach2.team2 = team1;
+        coach2.sport = "Danville Ponchos";
         coach2.declare_win2();
 
 
