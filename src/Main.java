@@ -21,13 +21,6 @@ public class Main {
         ref2.year();
 
 
-        Player player2 = new Player();
-        player2.name = "Price Watt";
-        player2.Name();
-        player2.team = "Danville Ponchos";
-        player2.Team();
-        player2.sport = "Soccer";
-        player2.Sport();
 
         Match match1 = new Match();
         match1.teams = "Danville Ponchos and Bronvill Weasels";
@@ -62,6 +55,17 @@ public class Main {
         player1.Sport();
         player1.coach = coach1;
         player1.Coach();
+
+        Player player2 = new Player();
+        player2.name = "Price Watt";
+        player2.Name();
+        player2.team = "Danville Ponchos";
+        player2.Team();
+        player2.sport = "Soccer";
+        player2.Sport();
+        player2.coach = coach2;
+        player2.Coach();
+
 
 
     }
