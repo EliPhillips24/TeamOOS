@@ -9,7 +9,7 @@
          this.name = name;
          this.team = team;
          this.sport = sport;
-         this.coach = coach
+         this.coach = coach;
      }
 
     public void Name(){
