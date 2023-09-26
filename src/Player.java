@@ -1,15 +1,21 @@
-public class Player {
+ class Player {
 
-    String name;
-    String team;
-    String sport;
-    Coach coach;
+    private String name;
+     private String team;
+     private String sport;
+     private Coach coach;
+
+     public Player(String name, String team, String sport, Coach coach) {
+         this.name = name;
+         this.team = team;
+         this.sport = sport;
+         this.coach = coach
+     }
 
     public void Name(){
         System.out.println("Hi everyone! My name is " +name);
 
     }
-
     public void Team(){
         System.out.println("Hi everyone! I play for " +team);
     }

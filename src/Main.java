@@ -6,8 +6,8 @@ public class Main {
         Match match1 = new Match();
         Coach coach1 = new Coach();
         Coach coach2 = new Coach();
-        Player player1 = new Player();
-        Player player2 = new Player();
+        Player player1 = new Player("Rearden Walker", "Bronvill Weasels", "Soccer", coach1);
+        Player player2 = new Player("Price Watt", "Danville Ponchos", "Soccer", coach2);
         Ref ref1 = new Ref();
 
         ref1.name = "Mr. Big";
@@ -52,23 +52,15 @@ public class Main {
         coach2.declare_win2();
 
 
-        player1.name = "Rearden Walker";
         player1.Name();
-        player1.team = "Bronvill Weasels";
         player1.Team();
-        player1.sport = "Soccer";
         player1.Sport();
-        player1.coach = coach1;
         player1.Coach();
 
 
-        player2.name = "Price Watt";
         player2.Name();
-        player2.team = "Danville Ponchos";
         player2.Team();
-        player2.sport = "Soccer";
         player2.Sport();
-        player2.coach = coach2;
         player2.Coach();
 
         team1.team = "Bronvill Weasels";
