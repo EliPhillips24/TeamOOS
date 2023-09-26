@@ -8,11 +8,10 @@ public class Main {
         Coach coach2 = new Coach();
         Player player1 = new Player();
         Player player2 = new Player();
-
         Ref ref1 = new Ref();
+
         ref1.name = "Mr. Big";
         ref1.name();
-
         ref1.sport = " Soccer";
         ref1.sport();
         ref1.year = 10;
