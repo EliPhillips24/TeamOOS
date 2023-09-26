@@ -1,10 +1,16 @@
-public class Team {
+ class Team {
 
     Player player;
     String team;
     Coach coach;
 
-    public void Player() {
+     public Team(Player player, String team, Coach coach) {
+         this.player = player;
+         this.team = team;
+         this.coach = coach;
+     }
+
+     public void Player() {
         System.out.println("This team has " +player.name+ "on it");
     }
     public void TeamName() {
