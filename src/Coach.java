@@ -9,7 +9,7 @@ public class Coach {
         System.out.println("My name is " + name);
     }
     public void introduce_team(){
-        System.out.println("I coach for the " +team.team);
+        System.out.println("I coach for the " +team);
     }
     public void declare_win(){
         System.out.println("And we will win this " +sport);

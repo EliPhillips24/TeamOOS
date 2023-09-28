@@ -64,19 +64,14 @@ public class Main {
         player2.Sport();
         player2.Coach();
 
-        team1.team = "Bronvill Weasels";
         team1.TeamName();
-        team1.player = player1;
         team1.Player();
-        team1.coach = coach1;
         team1.Coach();
 
 
-        team2.team = "Danville Ponchos";
         team2.TeamName();
-        team2.player = player2;
         team2.Player();
-        team2.coach = coach2;
+        team2.Coach();
 
 
 

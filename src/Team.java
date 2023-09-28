@@ -3,8 +3,8 @@ import java.util.ArrayList;
 class Team {
 
      final private ArrayList<Player> players;
-    String team;
-    Coach coach;
+   private String team;
+    private Coach coach;
 
 
      public Team(Player player, String team, Coach coach) {
