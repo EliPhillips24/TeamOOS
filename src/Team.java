@@ -11,7 +11,7 @@
      }
 
      public void Player() {
-        System.out.println("This team has " +player.name+ "on it");
+        System.out.println("This team has " +player+ "on it");
     }
     public void TeamName() {
         System.out.println("This is the " +team);
