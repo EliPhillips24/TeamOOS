@@ -1,17 +1,20 @@
- class Team {
+import java.util.ArrayList;
 
-    Player player;
+class Team {
+
+     final private ArrayList<Player> players;
     String team;
     Coach coach;
 
+
      public Team(Player player, String team, Coach coach) {
-         this.player = player;
          this.team = team;
          this.coach = coach;
+         this.players = new ArrayList<Player>();
      }
 
      public void Player() {
-        System.out.println("This team has " +player+ "on it");
+        System.out.println("This team has " +players+ "on it");
     }
     public void TeamName() {
         System.out.println("This is the " +team);
