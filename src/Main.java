@@ -1,14 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-
+        Ref ref1 = new Ref();
         Ref ref2 = new Ref();
         Match match1 = new Match();
         Coach coach1 = new Coach();
         Coach coach2 = new Coach();
         Player player1 = new Player("Rearden Walker", "Bronvill Weasels", "Soccer", coach1);
         Player player2 = new Player("Price Watt", "Danville Ponchos", "Soccer", coach2);
-        Ref ref1 = new Ref();
         Team team1 = new Team(player1,"Bronvill Weasels", coach1);
         Team team2 = new Team(player2, "Danville Ponchos", coach2);
 
