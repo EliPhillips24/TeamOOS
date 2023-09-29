@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
+        ArrayList<Team> teams = new ArrayList<Team>();
 
         Ref ref1 = new Ref();
         Ref ref2 = new Ref();
@@ -59,6 +62,10 @@ public class Main {
         team1.TeamName();
         team1.Player();
         team1.Coach();
+        teams.add(team1);
+        teams.get(0).addPlayers(player1);
+        teams.get(0).addPlayers(player2);
+        teams.get(0).Player();
 
         team2.TeamName();
         team2.Player();
