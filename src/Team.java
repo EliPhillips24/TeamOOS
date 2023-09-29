@@ -7,7 +7,7 @@ class Team {
     final private Coach coach;
 
 
-     public Team(Player player, String team, Coach coach) {
+     public Team(Player players, String team, Coach coach) {
          this.team = team;
          this.coach = coach;
          this.players = new ArrayList<>();
@@ -24,12 +24,6 @@ class Team {
     }
     public void addPlayers(Player newPlayer) {
         this.players.add(newPlayer);
-    }
-    public Player getPlayerNumber(int number){
-         return this.players.get(number);
-    }
-    public void forgetPlayer(Player oldPlayer){
-         this.players.remove(oldPlayer);
     }
 }
 

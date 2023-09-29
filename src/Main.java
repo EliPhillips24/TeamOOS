@@ -60,7 +60,6 @@ public class Main {
         player2.Coach();
 
         team1.TeamName();
-        team1.Player();
         team1.Coach();
         teams.add(team1);
         teams.get(0).addPlayers(player1);
