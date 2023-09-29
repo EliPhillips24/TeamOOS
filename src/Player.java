@@ -1,8 +1,13 @@
+//Brandon
  class Player {
     private String name;
      private String team;
      private String sport;
      private Coach coach;
+
+     public String getName() {
+         return name;
+     }
 
      public Player(String name, String team, String sport, Coach coach) {
          this.name = name;
@@ -26,6 +31,10 @@
     public void Coach(){
         System.out.println("My Coach is " +coach.name);
     }
-}
+
+     public void setName(String name) {
+         this.name = name;
+     }
+ }
 
 

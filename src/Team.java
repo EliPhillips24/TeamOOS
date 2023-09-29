@@ -1,9 +1,9 @@
 import java.util.ArrayList;
-
+//Brandon
 class Team {
 
-     final private ArrayList<Player> players;
-   private String team;
+    final private ArrayList<Player> players;
+    private String team;
     private Coach coach;
 
 
@@ -22,4 +22,14 @@ class Team {
     public void Coach() {
         System.out.println("This team's coach is " +coach.name);
     }
+    public void addPlayers(Player newPlayer) {
+        this.players.add(newPlayer);
+    }
+    public Player getPlayerNumber(int number){
+         return this.players.get(number);
+    }
+    public void forgetPlayer(Player oldPlayer){
+         this.players.remove(oldPlayer);
+    }
 }
+

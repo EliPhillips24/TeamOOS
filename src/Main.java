@@ -18,16 +18,12 @@ public class Main {
         ref1.year = 10;
         ref1.year();
 
-
         ref2.name = "Mr. Small";
         ref2.name();
         ref2.sport = " Soccer";
         ref2.sport();
         ref2.year = 7;
         ref2.year();
-
-
-
 
         match1.teams = "Danville Ponchos and Bronvill Weasels";
         match1.teams();
@@ -36,14 +32,12 @@ public class Main {
         match1.location = "Bronvill Weasels stadium";
         match1.location();
 
-
         coach1.name = "Brad Chase";
         coach1.introduce_self();
         coach1.team = team1;
         coach1.introduce_team();
         coach1.sport = "Soccer Tournament";
         coach1.declare_win();
-
 
         coach2.name = "Justin Netenhao";
         coach2.introduce_self();
@@ -52,12 +46,10 @@ public class Main {
         coach2.sport = "Danville Ponchos";
         coach2.declare_win2();
 
-
         player1.Name();
         player1.Team();
         player1.Sport();
         player1.Coach();
-
 
         player2.Name();
         player2.Team();
@@ -67,7 +59,6 @@ public class Main {
         team1.TeamName();
         team1.Player();
         team1.Coach();
-
 
         team2.TeamName();
         team2.Player();
