@@ -3,14 +3,14 @@ import java.util.ArrayList;
 class Team {
 
     final private ArrayList<Player> players;
-    private String team;
-    private Coach coach;
+    final private String team;
+    final private Coach coach;
 
 
      public Team(Player player, String team, Coach coach) {
          this.team = team;
          this.coach = coach;
-         this.players = new ArrayList<Player>();
+         this.players = new ArrayList<>();
      }
 
      public void Player() {
